@@ -1,6 +1,5 @@
 import styled from "styled-components";
-// import { colors } from "../../styles/colors";
-import { colors } from "../styles/colors";
+import { colors } from "../../styles/colors";
 
 export const ContainerNavbar = styled.div`
   max-width: 100vw;
