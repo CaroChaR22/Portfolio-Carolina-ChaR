@@ -3,15 +3,19 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Container from "./components/Container";
 import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects/Projects";
+
 
 function App() {
   return (
     <>
       <Navbar />
       <Container > 
-        {/* <p>HOLA REACT CON STYLED COMPONENT DESDE APP.JS</p> */}
+      <AboutMe />
+      <Projects />
+
       </Container>
-      <AboutMe></AboutMe>
+      
     </>
   );
 }

@@ -78,9 +78,11 @@ text-align: center;
 max-width:250px;
 
 img {
-    width: 250px;
+    width: 200px;
     border-radius: 50%;
 }
+
+// responsive
 
 @media (max-width: 768px) {
     width: 100%;

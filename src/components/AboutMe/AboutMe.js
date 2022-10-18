@@ -3,7 +3,7 @@ import React from "react";
 import * as S from "./AboutMe.styles";
 import logoGithub from "../../svg/github.svg";
 import logoLinkedIn from "../../svg/linkedin.svg";
-import Icono from "../../svg/mujer.jpg";
+
 
 function AboutMe() {
   const socialNetwork = [
@@ -30,7 +30,7 @@ function AboutMe() {
           </div> 
         <S.ContainerText>
           <S.Title>
-            <p>Hello, Im</p>
+            <p>Hello, I'm</p>
             <p>Carolina ChaR</p>
             <p>Fullstack Developer</p>
           </S.Title>
@@ -54,7 +54,7 @@ function AboutMe() {
           </S.ContainerIcons>
         </S.ContainerText>
         <S.ContainerImage>
-          <img src="/portfolio/src/svg/mujer.jpg" alt="Caro_ChaR"/>
+          <img src="/img/profile.png" alt="Caro_ChaR"/>
         </S.ContainerImage>
       </S.ContainerFlex>
     </S.ContainerAboutMe>
@@ -62,3 +62,7 @@ function AboutMe() {
 }
 
 export default AboutMe;
+
+
+// esto es una ruta relativa, va directamente a la raiz ::    
+        // <img src="/img/profile.png" alt="Caro_ChaR"/>
