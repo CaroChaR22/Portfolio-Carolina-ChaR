@@ -62,6 +62,7 @@ padding-rigth: 100px;
 export const ContainerIcons = styled.div`
 display: flex;
 
+
 img {
     width: 32px;
     height: 32px;
@@ -78,8 +79,8 @@ text-align: center;
 max-width:250px;
 
 img {
-    width: 200px;
-    border-radius: 50%;
+    width: 180px;
+    border-radius: 48%;
 }
 
 // responsive

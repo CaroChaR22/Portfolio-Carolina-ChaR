@@ -46,12 +46,8 @@ export const titleProject = styled.h3`
   text-align: center;
   margin-bottom: 10px;
   color: ${colors.TEXT_WHITE};
-  background: linear-gradient(
-    135deg,
-    rgb(100, 130, 170) 0%,
-    rgb(200, 40, 95) 100%
-  );
-  box-shadow: ${colors.BOX_SHADOW_BLUE};
+  background: linear-gradient(135deg, #d92546 0%, #e675dc 50%, #fd5ddb 100%);
+  box-shadow: 2px 5px 3px rgba(18, 18, 18, 0.79);
   text-decoration: none;
   border-radius: 10px;
 `;

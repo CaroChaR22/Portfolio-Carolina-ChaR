@@ -1,6 +1,8 @@
 import  simpsonImage from '../../images/projects/simpson.jpg'
 import  marvelImage from '../../images/projects/marvel.jpg'
 import  rick_mortyImage from '../../images/projects/rick-morty.jpg'
+import weatherImage from '../../images/projects/the_weather.jpg'
+
 
 import cssImage from '../../images/techs/css.png'
 import nextImage from '../../images/techs/next.png'
@@ -18,7 +20,7 @@ export const projectsPortfolio = [
 
     {
         title: "The Simpsons API",
-        image: "",
+        image: simpsonImage ,
         techs: [
             { name:"React", src: reactImage },
             { name: "Styled Components", src: styledImage}  
@@ -30,7 +32,7 @@ export const projectsPortfolio = [
 
     {
         title: "The Weather App",
-        image: "",
+        image: weatherImage ,
         techs: [
             { name:"React", src: reactImage },
             { name: "CSS", src: cssImage},
@@ -43,50 +45,62 @@ export const projectsPortfolio = [
     },
 
     {
-        title: "The Form",
+        title: "Contador",
         image: "",
         techs: [
             { name:"React", src: reactImage },
             { name: "CSS", src: cssImage}  
         ],
-        description:"A form",
+        description:"A Contador",
         repository:"",
         website:"#!"
     },
 
-    {
-        title: "marvel",
-        image: "",
-        techs: [
-            { name:"React", src: reactImage },
-            { name: "SASS", src: sassImage},
-            { name: "React Router", src: react_router_domImage}  
-        ],
-        description:"marvel",
-        repository:"",
-        website:"#!"
-    },
-    {
-        title: "Rick & Morty",
-        image: "",
-        techs: [
-            { name:"React", src: reactImage },
-            { name: "CSS", src: cssImage}  
-        ],
-        description:"rick-morty",
-        repository:"",
-        website:"#!"
-    },
+    // {
+    //     title: "The Form",
+    //     image: "",
+    //     techs: [
+    //         { name:"React", src: reactImage },
+    //         { name: "CSS", src: cssImage}  
+    //     ],
+    //     description:"A form",
+    //     repository:"",
+    //     website:"#!"
+    // },
 
-    {
-        title: "Dynamic Form",
-        image: "",
-        techs: [
-            { name:"React", src: reactImage },
-            { name: "React Boostrap", src: react_bootstrapImage}  
-        ],
-        description:"Dynamic Form",
-        repository:"",
-        website:"#!"
-    }
+    // {
+    //     title: "marvel",
+    //     image: "",
+    //     techs: [
+    //         { name:"React", src: reactImage },
+    //         { name: "SASS", src: sassImage},
+    //         { name: "React Router", src: react_router_domImage}  
+    //     ],
+    //     description:"marvel",
+    //     repository:"",
+    //     website:"#!"
+    // },
+    // {
+    //     title: "Rick & Morty",
+    //     image: "",
+    //     techs: [
+    //         { name:"React", src: reactImage },
+    //         { name: "CSS", src: cssImage}  
+    //     ],
+    //     description:"rick-morty",
+    //     repository:"",
+    //     website:"#!"
+    // },
+
+    // {
+    //     title: "Dynamic Form",
+    //     image: "",
+    //     techs: [
+    //         { name:"React", src: reactImage },
+    //         { name: "React Boostrap", src: react_bootstrapImage}  
+    //     ],
+    //     description:"Dynamic Form",
+    //     repository:"",
+    //     website:"#!"
+    // }
 ];

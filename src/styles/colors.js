@@ -1,6 +1,7 @@
 export const colors = {
     TEXT_GRADIENT_PURPLE: "linear-gradient(135deg,#cb5eee 0%,#4be1ec 100%)",
     TEXT_GRADIENT_RED: "linear-gradient(135deg, #D92546 0%, #e675dc 50%, #fd5ddb 90%)",
+    // TEXT_GRADIENT_RED: "linear-gradient(135deg, #55585D 0%, #C9C9C9 50%, #E3E3E3 90%)",
     TEXT_GRADIENT_GREEN: "linear-gradient(135deg,#d6ff7f 0%,#00b3cc 100%)",
     TEXT_GREY_NEUTRAL: "#6b6f76",
     TEXT_BLACK: "#0D0D0D",
@@ -17,8 +18,14 @@ export const colors = {
   };
 
 
-//   #D9325E
-//   #E9ECF2
-//   #D92546
-//   #A66226
-//   #0D0D0D
+// #D9325E
+// #E9ECF2
+// #D92546
+// #A66226
+// #0D0D0D
+
+// #607D8B
+// #FFFFFF
+// #E3E3E3
+// #C9C9C9
+// #55585D
