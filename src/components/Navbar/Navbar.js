@@ -4,8 +4,10 @@ import * as S from "./Navbar.styles";
 
 const Navbar = () => {
   const [showMenuBurguer, setShowMenuBurguer] = useState(false);
-  console.log(showMenuBurguer);
 
+  const clickItemsNav = item => {
+    document.getElementById(item).scrollIntoView({behavior: "smooth"});
+  }
 
   return (
     <S.ContainerNavbar>
@@ -23,21 +25,19 @@ const Navbar = () => {
         <S.MenuBurguer />
       </S.ContainerBurguer>
 
-      <S.ContainerItems showMenuBurguer={ showMenuBurguer}>
-        <p>About me</p>
-        <p>Projects</p>
+      <S.ContainerItems showMenuBurguer={showMenuBurguer}>
+        <p onClick={() => clickItemsNav("about-me")}>About me</p>
+        <p onClick={() => clickItemsNav("my-projects")}>Projects</p>
 
         <S.ContainerButton>
-          <div>📞 Contact me</div>
+          <div onClick={() => clickItemsNav("contact-me")}>📞 Contact me</div>
         </S.ContainerButton>
-        
       </S.ContainerItems>
     </S.ContainerNavbar>
   );
 };
 
 export default Navbar;
-
 
 // rafce == react functional component
 // se acreado una variable en el archivo de estilos del navbar

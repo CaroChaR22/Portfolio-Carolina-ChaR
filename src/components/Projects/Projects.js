@@ -7,7 +7,7 @@ import website from "../../svg/website.svg";
 console.log(projectsPortfolio);
 function Projects() {
   return (
-    <S.ContainerProject>
+    <S.ContainerProject id="my-projects">
       <S.Title>
         some of{" "}
         <span>

@@ -54,7 +54,7 @@ const Contact = () => {
 
   console.log(contacDates);
   return (
-    <S.ContactCont>
+    <S.ContactCont id="contact-me">
       <S.ContactTitle> Contact me </S.ContactTitle>
       
       <S.FormContainer>
